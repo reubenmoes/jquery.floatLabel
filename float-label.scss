@@ -1,0 +1,41 @@
+//Defaults
+$color-base: #333 !default;
+$color-base-alt: #777 !default;
+
+
+.form-float-label {
+  margin-top: 0;
+  padding-top: 21px;
+
+  label{
+    left: 0;
+    position: absolute;
+    top: 0;
+    transition: translateY(21px);
+    transition: all, 0.2s;
+    color: $color-base;
+    font-size: 14px;
+  }// label
+
+  input,
+  textarea {
+    position: relative;
+  }// input
+
+  &.is-active {
+
+    label{
+      color: $color-base-alt;
+      font-size: 11px;
+    } // label
+
+  }// &.is-active
+
+}// .form-float-label
+
+.u-no-transition {
+  //this and all children
+  &, * {
+    transition: none !important;
+  }
+}

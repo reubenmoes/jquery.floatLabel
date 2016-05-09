@@ -1,0 +1,22 @@
+.form-float-label {
+  margin-top: 0;
+  padding-top: 21px; }
+  .form-float-label label {
+    left: 0;
+    position: absolute;
+    top: 0;
+    transition: translateY(21px);
+    transition: all, 0.2s;
+    color: #333;
+    font-size: 14px; }
+  .form-float-label input,
+  .form-float-label textarea {
+    position: relative; }
+  .form-float-label.is-active label {
+    color: #777;
+    font-size: 11px; }
+
+.u-no-transition, .u-no-transition * {
+  transition: none !important; }
+
+/*# sourceMappingURL=float-label.css.map */
