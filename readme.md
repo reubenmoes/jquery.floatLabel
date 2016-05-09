@@ -1,5 +1,15 @@
 # Example 
 
+
+## haml
+
+```
+.form__group.float-label.js-float-label
+  %label{'for': 'email2'} Email address
+  %input{'type': 'text', 'id': 'email2', 'name': 'email2'}
+```
+
+## JS
 ```
 
 (function($){
